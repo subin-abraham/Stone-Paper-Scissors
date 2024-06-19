@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./selectPageStyle.css">
+</head>
+
+<body onload="onLoad()">
+    <div class="container">
+        <div class="hedingSection">
+            <img src="./images/logo.svg" alt="">
+            <div class="scoreSection">
+                <p>Score</p>
+                <p>12</p>
+            </div>
+        </div>
+        <div class="selectPage">
+            <div class="selectPageSectionOne">
+                <button class="selectedButton" id="displayRock"><img src="./images/icon-rock.svg" alt=""></button>
+                <button class="selectedButton" id="displayPaper"><img src="./images/icon-paper.svg" alt=""></button>
+                <button class="selectedButton" id="displayScissors"><img src="./images/icon-scissors.svg" alt=""></button>
+
+            </div>
+            <div class="selectPageSectionTwo">
+                <h1>YOU WIN</h1>
+                <button class="playAgainButton" onclick="clickedPlayAgain()">PLAY AGAIN</button>
+            </div>
+            <div class="selectPageSectionThree">
+                <button class="selectedButton" id="systemDisplayRock"><img src="./images/icon-rock.svg" alt=""></button>
+                <button class="selectedButton" id="systemDisplayPaper"><img src="./images/icon-paper.svg" alt=""></button>
+                <button class="selectedButton" id="systemDisplayScissors"><img src="./images/icon-scissors.svg" alt=""></button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./selectPageScript.js"></script>
+</html>
+
+<!-- <button class="buttonOne" onclick="openSelectPage()"><img src="./images/icon-rock.svg" alt=""></button>
+<button class="buttonTwo"><img src="./images/icon-paper.svg" alt=""></button>
+<button class="buttonThree"><img src="./images/icon-scissors.svg" alt=""></button> -->

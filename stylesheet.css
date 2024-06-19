@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.parentSection {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hedingSection {
+    position: absolute;
+    width: 50%;
+    height: 90px;
+    padding: 10px;
+    border: 5px blue solid;
+    border-radius: 10px;
+    top: 20px;
+}
+
+.scoreSection {
+    height: 90px;
+    background-color: white;
+    width: 15%;
+    float: right;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hedingSection img {
+    float: left;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.buttonParent {
+    height: 300px;
+    width: 360px;
+    background-image: url(./images/bg-triangle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonParent button {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 10px blue solid;
+    border-radius: 100px;
+}
+
+.buttonParent .buttonOne {
+    /* float: left; */
+    top: -30px;
+    bottom: -25px;
+}
+
+.buttonParent .buttonTwo {
+    top: -30px;
+    right: -25px;
+}
+
+.buttonParent .buttonThree {
+    top: 220px;
+    right: 125px;
+}
